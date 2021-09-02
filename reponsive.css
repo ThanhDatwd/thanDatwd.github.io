@@ -1,0 +1,240 @@
+@media only screen and (max-width: 1060px){
+    .app__control{
+        position: fixed;
+        bottom: 0px;
+        z-index: 2;
+
+    }
+}
+@media only screen and (max-width: 870px){
+    /* reponsive phần music main */
+    /* phần thẻ bào hát  */
+    /* .song .body{
+        width: 100%;
+    }
+    .song .duration{
+        display: none;
+    }
+    .song .option{
+        display: none;
+    } */
+    .swiper-slide{
+        height: 220px;
+        width:50%;
+        margin:0 5px;
+    }
+}
+@media only screen and (max-width: 560px){
+    .app__music-play{
+        min-height: 340px;
+        /* height: calc(100% - 180px); */
+    }
+    .app__section-playlist{
+        width: 100%;
+        height:300px
+    }
+    /* Xử lý phần vdieo */
+    .app__section-video{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .swiper-slide{
+        height: 220px;
+        width: 100%;
+        margin: 0 0px;
+    }
+    .app__video{
+        height: 220px;
+    }
+    /*  Xử lí phần control */
+    .app__control{
+        position: fixed;
+        bottom: 0px;
+        z-index: 2;
+
+    }
+    .songDisplay{
+        display: none;
+    }
+    .control{
+        width: 80%;
+    }
+    /*  XỬU LÍ  CHO TRANG  MV  ================================================== */
+    .play-mv__header{
+        display: none;
+    }
+    .section__mv-seeMore{
+        display: none;
+    }
+    .play-mv{
+        min-height: 100px;
+    }
+    .mv__content{
+        padding:0 0px;
+        height: 100%;
+        
+    }
+    .mv__shows{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+    }.mv__recommend{
+        margin-top: 300px;
+        width: 100%;
+        min-height: 100px;
+        background: none;
+    }
+    .mv__recommend-listMv .recommend__mv-card{
+        height: 300px;
+        margin: 10px 0;
+        
+    }
+    .recommend__mv-card img{
+        width: 100%;
+        height:260px
+    }
+    .recommend-card__info{
+        height:30px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .recommend-card__info img{
+        display: block;
+        height:36px;
+        width: 36px;
+    }
+    
+}
+@media only screen and (max-width: 420px){
+    .sidebar{
+        /* width: 240px; */
+        left:-78px
+        /* display: none; */ 
+    }
+    .sidebar.active{
+        width: 240px;
+        left:0px;
+    }
+    .sidebar.active ~.app__content{
+        width:calc(100% - 0px);
+        left:0px;
+    }
+    /*  header */
+    .search-music{
+        width: 200px;
+    }
+    .search-music input{
+        width: 160px;
+    }
+    .search-music .fa-search{
+        width: 40px;
+    }
+    #toggle{
+        /* display: none; */
+    }
+    .app__content{
+        width:100%;
+        left: 0;
+    }
+    /* phần slider */
+    .app__album-list{
+        padding: 0 10px;
+    }
+    /* phần Control */
+    .control{
+        width: 100%;
+    }
+    .app__music-play{
+        padding: 0 10px;
+    }
+      /* Reponsive cho trong album */
+      .section__album-content{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0;
+      }
+      .section__album-infomation{
+          width: 100%;
+          /* background-color: green; */
+          padding: 10px 0px;
+    
+      }
+      .album-profide{
+          position: relative;
+          min-height: 200px;
+
+      }
+      .profide__background{
+          display: block;       
+          filter:blur(2px);
+          
+          
+      }
+    
+      .album-profide__poster{
+            width: 100px;
+            height: 100px;
+            border-radius: 0px;
+            margin-top: 20px;
+      }
+      .album-profide__details{
+           position: absolute;
+           width: 100%;
+           left: 50%;
+           margin-top: 5px;
+           transform: translateX(-50%);
+           z-index: 2;
+      }
+      .album-profide__title{
+            color: #fff;
+            font-size: 1.8rem;
+      }
+      .album-profide__details p{
+          /* display: none; */
+      }
+      /* phần title trong ablum profile */
+      .album__btn-normal{
+        display: none ;
+      }
+      .album__btn-reponsive{
+        display: flex;
+      }
+      .section__album-playlist{
+          padding: 10px;
+          width: 100%;
+      }
+      /* //////////////////////////XỬ LÍ TRANG MV  Ở  DẠNG MOBILE////////////////////// */
+
+      .mv__shows{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 240px;
+        border-radius: 0px;
+      }
+     .mv__recommend{
+        margin-top: 240px;
+    }
+      .mv__recommend-listMv .recommend__mv-card{
+        height: 220px;
+        margin: 10px 0;
+        
+    }
+    .recommend__mv-card img{
+        width: 100%;
+        height:180px
+    }
+    .recommend-card__info{
+        height:30px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .recommend-card__info img{
+        display: block;
+        height:36px;
+        width: 36px;
+    }
+}

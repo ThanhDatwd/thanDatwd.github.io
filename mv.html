@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./appMusic.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="section__play-mv">
+        <div class="section__background-mv">
+            <img src="./resourse/image/poster_pop2.jpg" alt="">
+        </div>
+        <div class="play-mv">
+            <div class="play-mv__header">
+                <div class="header__shows">
+                    <div class="header__info-mv">
+                        <img src="./resourse/image/poster_pop.jpg" alt="">
+                        <div>
+                            <h4 id="headerNameMv">name song</h4>
+                            <span id="headerNameSinger">name Singer</span>
+                        </div>
+                    </div>
+                    <div class="option-feature">
+                        <i class='bx bx-heart'></i>
+                        <i class='bx bx-music'></i>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <a class="option-close">
+                    <i class='bx bxs-bullseye'></i>
+                </a>
+            </div>
+            <div class="mv__content">
+                <div class="mv__shows">
+                    <iframe class="iframe__mv" src="https://www.youtube.com/embed/K601I5gP0_I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="mv__recommend">
+                    <div class="mv__recommend-title">
+                        <h4>Danh Sách phát</h4>
+                        <div class="btn_play-auto">
+                            <span>Tự động phát</span>
+                        </div>
+                    </div>
+                    <ul class="mv__recommend-listMv">
+                        <a href="./Album2.html">
+                            <div class="recommend__mv-card">
+                                <img src="./resourse/image/soobin_poster.jpg" alt="">
+                                <div class="recommend-card__info" >
+                                    <img src="./resourse/image/music-platform-large.png" alt="">
+                                    <div class="card__info-text">
+                                         <h4 >name song</h4>
+                                        <span>name Singer</span>
+                                    </div>   
+                                </div>
+                            </div>
+                        </a>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================================================================== -->
+        <div class="section__mv-seeMore">
+            <div class="app__title">
+                <span>playList</span>
+                <h3>Bạn có thể quan tâm</h3>
+            </div>
+            <div class="mv-OfSinger" id="section-mv">
+                <div class="grid__column">
+                    <a href="#">
+                        <div class="card__mv">
+                            <div class="card__mv-img">
+                                <img class="mv-img" src="./resourse/image/poster_pop.jpg" alt="">
+                                <span class="mv-duration">04:56</span>
+                                <i class='bx bx-play'></i>
+                            </div>
+                            <div class="card__mv-info">
+                                <img class="img__singer" style="width:40px;height:40px;border-radius: 50%;" src="./resourse/image/poster_karik.jpg" alt="">
+                                <div class="abc">
+                                    <h3 class="mv-name">Từ em mà ra</h3>
+                                    <span class="mv-singerName" >Lil zpoet</span>
+                                </div>            
+                            </div>
+                        </div>
+                    </a>         
+                </div>
+                <div class="grid__column">
+                    <a href="#">
+                        <div class="card__mv">
+                            <div class="card__mv-img">
+                                <img class="mv-img" src="./resourse/image/poster_pop.jpg" alt="">
+                                <span class="mv-duration">04:56</span>
+                                <i class='bx bx-play'></i>
+                            </div>
+                            <div class="card__mv-info">
+                                <img class="img__singer" style="width:40px;height:40px;border-radius: 50%;" src="./resourse/image/poster_karik.jpg" alt="">
+                                <div class="abc">
+                                    <h3 class="mv-name">Từ em mà ra</h3>
+                                    <span class="mv-singerName" >Lil zpoet</span>
+                                </div>            
+                            </div>
+                        </div>
+                    </a>         
+                </div>
+                <div class="grid__column">
+                    <a href="#">
+                        <div class="card__mv">
+                            <div class="card__mv-img">
+                                <img class="mv-img" src="./resourse/image/poster_pop.jpg" alt="">
+                                <span class="mv-duration">04:56</span>
+                                <i class='bx bx-play'></i>
+                            </div>
+                            <div class="card__mv-info">
+                                <img class="img__singer" style="width:40px;height:40px;border-radius: 50%;" src="./resourse/image/poster_karik.jpg" alt="">
+                                <div class="abc">
+                                    <h3 class="mv-name">Từ em mà ra</h3>
+                                    <span class="mv-singerName" >Lil zpoet</span>
+                                </div>            
+                            </div>
+                        </div>
+                    </a>         
+                </div>
+                <div class="grid__column">
+                    <a href="#">
+                        <div class="card__mv">
+                            <div class="card__mv-img">
+                                <img class="mv-img" src="./resourse/image/poster_pop.jpg" alt="">
+                                <span class="mv-duration">04:56</span>
+                                <i class='bx bx-play'></i>
+                            </div>
+                            <div class="card__mv-info">
+                                <img class="img__singer" style="width:40px;height:40px;border-radius: 50%;" src="./resourse/image/poster_karik.jpg" alt="">
+                                <div class="abc">
+                                    <h3 class="mv-name">Từ em mà ra</h3>
+                                    <span class="mv-singerName" >Lil zpoet</span>
+                                </div>            
+                            </div>
+                        </div>
+                    </a>         
+                </div>
+            </div>
+        </div>
+     </div>
+     <script src="./mv.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
+    <script>
+        const mv_content=document.querySelector('.section__play-mv')
+        const mv_close=document.querySelector('.option-close')
+
+         mv_close.onclick=()=>{
+             mv_content.classList.remove("active")
+            mv_content.classList.add("active2")
+            setTimeout(function(){
+                window.location.replace('./index.html')
+                mv_content.add("active3")
+            },500)
+         }
+    </script>
+</body>
+
+</html>
